@@ -7,4 +7,9 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sign_in"
+        android:orderInCategory="100"
+        android:title="@string/action_sign_in_short"
+        app:showAsAction="never" />
 </menu>
