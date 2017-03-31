@@ -42,3 +42,4 @@ captures/
 
 .DS_Store
 .externalNativeBuild
+google-services.json
