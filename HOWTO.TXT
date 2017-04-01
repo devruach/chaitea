@@ -1,0 +1,28 @@
+1. Prerequisites
+
+https://firebase.google.com/docs/android/setup
+
+1) A device running Android 4.0 (Ice Cream Sandwich) or newer, and Google Play services 10.2.1 or higher
+   https://play.google.com/store/apps/details?id=com.google.android.gms
+2) The Google Play services SDK from the Google Repository, available in the Android SDK Manager 
+3) The latest version of Android Studio, version 1.5 or higher
+
+
+2. Create Firebase console project
+
+https://codelabs.developers.google.com/codelabs/firebase-android/#3
+
+1) Go to the Firebase console, https://console.firebase.google.com/.
+2) Select Create New Project
+3) Connect your Android app
+   Enter the SHA1 of your signing keystore. If you are using the standard debug keystore, use the command below to find the SHA1 hash:
+   C:\Users\USER>keytool -exportcert -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore -list -v -storepass android
+
+   You can find keytool under
+   C:\Program Files\Java\jreX.X.X_yyy\bin or
+   C:\Program Files\Java\jdkX.X.X_yyy\bin
+
+
+3. Firebase Authentication
+
+https://firebase.google.com/docs/auth/android/start/
